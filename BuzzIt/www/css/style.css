@@ -304,7 +304,7 @@ tbody {
 }
 
 .main-container {
-  padding: 50px 0;
+  padding: 0px 0;
 }
 
 .block {
@@ -6932,7 +6932,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 .colored.social-links li.facebook a,
 .social-links.animated-effect-1 li.facebook a:after,
 .btn.facebook {
-  background-color: #3b5998;
+  background-color: #E20074;
   border-color: #3b5998;
   color: #ffffff;
 }
