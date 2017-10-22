@@ -46,11 +46,19 @@ home.renderStories = function(objData) {
 
 		$.each(objData, function(key, value) {
 
-			console.log("Key", key, " val ", value);
-   
-   			str += "<div onclick=\"home.overlay('" + value['story_id'] + "', '" + value['story_img_url'] + "')\" class=\"col-xs-4\" style=\"padding-bottom: 5px;\">\
+			// console.log("Key", key, " val ", value);
+			
+			if(value['story_id'] == 'S1000') {
+				str += "<div onclick=\"home.overlay('" + value['story_id'] + "', '" + value['story_img_url'] + "')\" class=\"col-xs-4\" style=\"padding-bottom: 5px;\">\
+							<img src=\"https://shopplymouthmeetingmall.com/filesystem/plymouth-meeting-mall/644307_10151495304543895_2126949323_n.jpg\" style=\"width: 25%;height: auto;float: left;position: absolute;border-radius: 20px;left: 74px;top: 41px;\">\
+	                        <img style=\"border-radius:40px;border-radius: 28px;border-color: #e20075;border-width: 2px;border-style: dashed;\" class=\"media-object\" width=\"200\" src=\"" + value['image_url'] + "\" alt=\"\">\
+	                    </div>";
+				
+			} else {
+				str += "<div onclick=\"home.overlay('" + value['story_id'] + "', '" + value['story_img_url'] + "')\" class=\"col-xs-4\" style=\"padding-bottom: 5px;\">\
                         <img style=\"border-radius:40px;border-radius: 28px;border-color: #e20075;border-width: 2px;border-style: solid;\" class=\"media-object\" width=\"200\" src=\"" + value['image_url'] + "\" alt=\"\">\
-                    </div>";
+                    </div>";	
+			}		
 
 		});
 
