@@ -9,6 +9,7 @@
     "user_interests": "|I1002|",
     "user_date_joined": "10\/20\/2017",
     "claims": [{
-
-    },{}]
+        "story_id" : "S1000",
+        "story_img_url" : "https://s1.postimg.org/5051p5r29b/S1000.jpg"
+    }]
 }]

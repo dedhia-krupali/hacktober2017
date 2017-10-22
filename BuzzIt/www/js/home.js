@@ -41,12 +41,24 @@ home.getHomeData = function() {
 home.renderStories = function(objData) {
 	try {
 
-		// var str += "";
+		var str = "";
+		str += "<div class=\"row\">";
 
 		$.each(objData, function(key, value) {
 
 			console.log("Key", key, " val ", value);
+   
+   			str += "<div onclick=\"home.overlay('" + value['story_id'] + "', '" + value['story_img_url'] + "')\" class=\"col-xs-4\" style=\"padding-bottom: 5px;\">\
+                        <img style=\"border-radius:40px;border-radius: 28px;border-color: #e20075;border-width: 2px;border-style: solid;\" class=\"media-object\" width=\"200\" src=\"" + value['image_url'] + "\" alt=\"\">\
+                    </div>";
+
 		});
+
+		str += "</div>";
+
+		console.log("str", str);
+
+		$("#storiesContainer").html(str);
 
 
 
@@ -57,18 +69,17 @@ home.renderStories = function(objData) {
 }
 
 
-home.getStoryData = function(event) {
+home.getStoryData = function(interest_id, callback) {
 	try {
 
-		var interest_id;
 
 		$.ajax({
 			url: '/../json_dumps/GETHOMEDATA_' + home.user_id + '_' + interest_id + '.json',
 			type: 'GET',
 			success : function(data) {
-                console.log(data);
+                // console.log(data);
 
-                home.renderStories(data);
+                callback(data);
             },
             error: function(xhr, status, err) {
             	console.log(err)
@@ -86,7 +97,98 @@ home.getStoryData = function(event) {
 home.navigate = function() {
 	try {
 
-		document.location = '';
+		document.location = './profile.html';
+
+	} catch(e) {
+
+	}
+}
+
+
+home.changeSections = function(id, interest_name) {
+	try {
+
+		console.log('Clicked', interest_name);
+
+		home.getStoryData(id, function(data) {
+
+			/* Render Data */
+			home.renderStories(data);
+		});
+
+
+	} catch(e) {
+
+	}
+}
+
+
+home.overlay = function(id, story_url) {
+	try {
+
+		home.story_id = id;
+		home.story_img_url = story_url;
+
+		$("#overlay_img").attr('src', story_url);
+
+		$("#overlay").fadeIn();
+
+        setTimeout(function(){
+        	home.overlayOff();
+        }, 5000);
+
+	} catch(e) {
+
+	}
+}
+
+home.overlayOff = function() {
+
+	home.story_id = '';
+	home.story_img_url = '';
+	$("#overlay").fadeOut();
+}
+
+
+home.claim = function() {
+	try {
+
+		// read global
+		// update JSON
+		
+		// See if there's JSON in local storage;
+		// if there, read and update
+		// else call API, read and dump to LocalStorage
+
+		if(keep.isset({ name : 'GETUSERPROFILE_' + home.user_id })) {
+			home.newData = JSON.parse(keep.get({ name : 'GETUSERPROFILE_' + home.user_id }));
+		
+		} else {
+
+			$.ajax({
+				url: '/../json_dumps/GETUSERPROFILE_' + home.user_id + '.json',
+				type: 'GET',
+				success : function(data) {
+	                
+	                home.newData = data;
+	                console.log(home.newData);
+
+
+	                home.newData[0].claims.push({
+	                	story_id : home.story_id,
+						story_img_url : home.story_img_url
+	                });
+
+	                keep.set({ name: 'GETUSERPROFILE_' + home.user_id, value: JSON.stringify(home.newData), storage: "L", sess: false });
+	                
+	            },
+	            error: function(xhr, status, err) {
+	            	console.log(err)
+	            }
+
+			});
+		}
+
 
 	} catch(e) {
 

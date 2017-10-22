@@ -1,1 +1,56 @@
-[{"story_id":"S1010","uploaded_by":"C1010","image_url":"http:\/\/bit.ly\/2gsHizE","no_of_times_displayed":"56","no_of_displays_remaining":"50","no_of_claims":"12","story_score":"1","story_category":"I1002"},{"story_id":"S1011","uploaded_by":"C1011","image_url":"http:\/\/bit.ly\/2yJd2e7","no_of_times_displayed":"56","no_of_displays_remaining":"50","no_of_claims":"12","story_score":"2","story_category":"I1002"},{"story_id":"S1012","uploaded_by":"C1012","image_url":"http:\/\/bit.ly\/2zsa4YU","no_of_times_displayed":"98","no_of_displays_remaining":"50","no_of_claims":"43","story_score":"1","story_category":"I1002"},{"story_id":"S1013","uploaded_by":"C1013","image_url":"http:\/\/bit.ly\/2yF25Iz","no_of_times_displayed":"9","no_of_displays_remaining":"50","no_of_claims":"1","story_score":"2","story_category":"I1002"},{"story_id":"S1014","uploaded_by":"C1014","image_url":"http:\/\/bit.ly\/2yZhUg7","no_of_times_displayed":"23","no_of_displays_remaining":"50","no_of_claims":"4","story_score":"1","story_category":"I1002"}]
+[
+{
+    "story_id": "S1010",
+    "uploaded_by": "C1010",
+    "image_url": "http:\/\/bit.ly\/2gsHizE",
+    "no_of_times_displayed": "56",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "12",
+    "story_score": "1",
+    "story_category": "I1002",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1011",
+    "uploaded_by": "C1011",
+    "image_url": "http:\/\/bit.ly\/2yJd2e7",
+    "no_of_times_displayed": "56",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "12",
+    "story_score": "2",
+    "story_category": "I1002",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1012",
+    "uploaded_by": "C1012",
+    "image_url": "http:\/\/bit.ly\/2zsa4YU",
+    "no_of_times_displayed": "98",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "43",
+    "story_score": "1",
+    "story_category": "I1002",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1013",
+    "uploaded_by": "C1013",
+    "image_url": "http:\/\/bit.ly\/2yF25Iz",
+    "no_of_times_displayed": "9",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "1",
+    "story_score": "2",
+    "story_category": "I1002",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1014",
+    "uploaded_by": "C1014",
+    "image_url": "http:\/\/bit.ly\/2yZhUg7",
+    "no_of_times_displayed": "23",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "4",
+    "story_score": "1",
+    "story_category": "I1002",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+}]

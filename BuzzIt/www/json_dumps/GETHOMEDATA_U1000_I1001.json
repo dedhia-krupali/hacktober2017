@@ -1,1 +1,56 @@
-[{"story_id": "S1005", "uploaded_by": "C1005", "image_url": "http:\/\/bit.ly\/2hYzEgG", "no_of_times_displayed": "21", "no_of_displays_remaining": "100", "no_of_claims": "5", "story_score": "2", "story_category": "I1001"}, {"story_id": "S1006", "uploaded_by": "C1006", "image_url": "http:\/\/bit.ly\/2yFRkpz", "no_of_times_displayed": "23", "no_of_displays_remaining": "50", "no_of_claims": "12", "story_score": "1", "story_category": "I1001"}, {"story_id": "S1007", "uploaded_by": "C1007", "image_url": "http:\/\/bit.ly\/2yHXJT7", "no_of_times_displayed": "45", "no_of_displays_remaining": "50", "no_of_claims": "21", "story_score": "2", "story_category": "I1001"}, {"story_id": "S1008", "uploaded_by": "C1008", "image_url": "http:\/\/bit.ly\/2zFFewy", "no_of_times_displayed": "87", "no_of_displays_remaining": "50", "no_of_claims": "41", "story_score": "1", "story_category": "I1001"}, {"story_id": "S1009", "uploaded_by": "C1009", "image_url": "http:\/\/bit.ly\/2iq9yHA", "no_of_times_displayed": "67", "no_of_displays_remaining": "50", "no_of_claims": "21", "story_score": "2", "story_category": "I1001"}]
+[
+{
+    "story_id": "S1005",
+    "uploaded_by": "C1005",
+    "image_url": "http:\/\/theplazaatprestoncenter.com\/wordpress\/wp-content\/uploads\/2013\/10\/pockets1.jpg",
+    "no_of_times_displayed": "21",
+    "no_of_displays_remaining": "100",
+    "no_of_claims": "5",
+    "story_score": "2",
+    "story_category": "I1001",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1006",
+    "uploaded_by": "C1006",
+    "image_url": "https:\/\/a.mktgcdn.com\/p\/kOI4lDMZQPfxFSC2X57SIQHHf0loUWnbuT_REmcEoiI\/500x500.jpg",
+    "no_of_times_displayed": "23",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "12",
+    "story_score": "1",
+    "story_category": "I1001",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1007",
+    "uploaded_by": "C1007",
+    "image_url": "https:\/\/images-yasabe.netdna-ssl.com\/r\/lD\/640x480\/6780349.jpg",
+    "no_of_times_displayed": "45",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "21",
+    "story_score": "2",
+    "story_category": "I1001",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1008",
+    "uploaded_by": "C1008",
+    "image_url": "http:\/\/galleriadallas.wpengine.netdna-cdn.com\/wp-content\/uploads\/2012\/08\/Express-Logo.png",
+    "no_of_times_displayed": "87",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "41",
+    "story_score": "1",
+    "story_category": "I1001",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1009",
+    "uploaded_by": "C1009",
+    "image_url": "http:\/\/2c2f06a14a9ade4267e6-fb8aac3b3bf42afe824f73b606f0aa4c.r92.cf1.rackcdn.com\/tenantlogos\/13351.png",
+    "no_of_times_displayed": "67",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "21",
+    "story_score": "2",
+    "story_category": "I1001",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+}]
