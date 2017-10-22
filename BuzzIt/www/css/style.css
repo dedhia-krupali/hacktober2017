@@ -6660,8 +6660,8 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 .social-links {
   list-style: none;
   font-size: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-left: 0;
 }
 
