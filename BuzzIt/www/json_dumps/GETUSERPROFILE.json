@@ -1,1 +1,14 @@
-GETUSERPROFILE.json
+[{
+    "user_id": "U1000",
+    "user_firstname": "Pratik",
+    "user_lastname": "Bhanushali",
+    "user_phone": "4695437613",
+    "user_social_id": "123sdsf",
+    "user_email": "hello@pratikbhanushali.in",
+    "user_birthday": "11\/04\/1991",
+    "user_interests": "|I1002|",
+    "user_date_joined": "10\/20\/2017",
+    "claims": [{
+
+    },{}]
+}]
