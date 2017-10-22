@@ -1,1 +1,56 @@
-[{"story_id":"S1000","uploaded_by":"C1000","image_url":"http:\/\/bit.ly\/2zsI1s4","no_of_times_displayed":"100","no_of_displays_remaining":"50","no_of_claims":"27","story_score":"1","story_category":"I1000"},{"story_id":"S1001","uploaded_by":"C1001","image_url":"http:\/\/bit.ly\/2yz6ijB","no_of_times_displayed":"200","no_of_displays_remaining":"50","no_of_claims":"127","story_score":"2","story_category":"I1000"},{"story_id":"S1002","uploaded_by":"C1002","image_url":"http:\/\/bit.ly\/2gvlYtf","no_of_times_displayed":"37","no_of_displays_remaining":"98","no_of_claims":"11","story_score":"1","story_category":"I1000"},{"story_id":"S1003","uploaded_by":"C1003","image_url":"http:\/\/bit.ly\/2yZnsqW","no_of_times_displayed":"46","no_of_displays_remaining":"87","no_of_claims":"12","story_score":"2","story_category":"I1000"},{"story_id":"S1004","uploaded_by":"C1004","image_url":"http:\/\/bit.ly\/2yF13fF","no_of_times_displayed":"51","no_of_displays_remaining":"120","no_of_claims":"23","story_score":"1","story_category":"I1000"}]
+[
+{
+    "story_id": "S1000",
+    "uploaded_by": "C1000",
+    "image_url": "https:\/\/res.cloudinary.com\/grubhub\/image\/upload\/w_400,h_300,f_auto,fl_lossy,q_80,c_fit\/vzvnpdk2tudm2rblxqtv",
+    "no_of_times_displayed": "100",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "27",
+    "story_score": "1",
+    "story_category": "I1000",
+    "story_img_url" : "https://s1.postimg.org/5051p5r29b/S1000.jpg"
+},
+{
+    "story_id": "S1001",
+    "uploaded_by": "C1001",
+    "image_url": "https:\/\/pringleapi.com\/Documents\/aedb69ae-03c6-48a0-9129-195f64248cdb\/bawarchi_loader.png",
+    "no_of_times_displayed": "200",
+    "no_of_displays_remaining": "50",
+    "no_of_claims": "127",
+    "story_score": "2",
+    "story_category": "I1000",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1002",
+    "uploaded_by": "C1002",
+    "image_url": "https:\/\/pbs.twimg.com\/profile_images\/645980698973761540\/xKHK-uDC.png",
+    "no_of_times_displayed": "37",
+    "no_of_displays_remaining": "98",
+    "no_of_claims": "11",
+    "story_score": "1",
+    "story_category": "I1000",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1003",
+    "uploaded_by": "C1003",
+    "image_url": "http:\/\/www.faccdallas.com\/uploads\/RTEmagicC_Logo_Cadot_01.jpg.jpg",
+    "no_of_times_displayed": "46",
+    "no_of_displays_remaining": "87",
+    "no_of_claims": "12",
+    "story_score": "2",
+    "story_category": "I1000",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+},
+{
+    "story_id": "S1004",
+    "uploaded_by": "C1004",
+    "image_url": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRB9c1TneaH56R_SiFqFvPCAh_M3NbWI6sC266UNn8NJRiaZXET",
+    "no_of_times_displayed": "51",
+    "no_of_displays_remaining": "120",
+    "no_of_claims": "23",
+    "story_score": "1",
+    "story_category": "I1000",
+    "story_img_url" : "https://s1.postimg.org/8eeakl4jov/S1001.jpg"
+}]
